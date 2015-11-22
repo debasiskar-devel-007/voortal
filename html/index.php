@@ -1,0 +1,348 @@
+<?php include('top.php') ?>
+
+<div class="container-fluid">
+   	<div class="row">
+    
+    <div class="container">
+        	<div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+        
+        
+          <div class="login_block "> <span><a href="javascript:void(0)">Login</a> / <a href="javascript:void(0)">Signup</a></span></div>
+          <div class="clearfix"></div>
+          
+
+            </div>  
+            </div>
+        
+         
+           
+           </div>
+     
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12 topblock">
+        
+    <div class="container">
+        	<div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+        
+        
+       
+          
+          <img src="images/mainbg_mobile.png" alt="#" class="mobile_banner">
+          
+          
+          <div class="top_text_block  wow startAnimation animated flipInX" data-animate="flipInX" data-wow-delay="50ms"  data-wow-duration="2s" style="-webkit-animation-delay: 50ms; -moz-animation-delay:50ms; animation-delay: 50ms;">
+          <a href="index.php"> <img src="images/logo.png" alt="#" class="logo"></a>
+          
+          <h1>Lorem Ipsum </h1>
+          
+          <p>of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          
+          
+          
+          </div>
+          
+          <div class="menu_wrapper">
+            <label class="wow startAnimation animated fadeInLeft" data-animate="fadeInLeft" data-wow-delay="300ms"  data-wow-duration="2s" style="-webkit-animation-delay: 300ms; -moz-animation-delay: 300ms; animation-delay: 300ms;">I am a ...</label>
+            
+            <div class="menu_contain wow startAnimation animated zoomIn" data-animate="zoomIn" data-wow-delay="450ms"  data-wow-duration="2s" style="-webkit-animation-delay: 450ms; -moz-animation-delay: 450ms; animation-delay: 450ms;">
+            
+            <ul>
+            
+            <li><a href="javascript:void(0)" class="active">Creative</a></li>
+               <li><a href="javascript:void(0)"> Agent</a>
+               <ul>
+                <li><a href="javascript:void(0)">Creative</a></li>
+               <li><a href="javascript:void(0)"> Agent</a></li>
+               <li><a href="javascript:void(0)"> Brain</a></li>
+               </ul>
+               </li>
+               <li><a href="javascript:void(0)"> Brain</a></li>
+            </ul>
+            
+            
+            
+            </div>
+            
+          
+          </div>
+          
+          
+            </div>  
+            </div>
+        
+         
+           
+           </div>
+
+                
+         </div>
+   </div>
+</div>
+
+
+<div class="container">
+   	<div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12 ideasblock " >
+          <div class="text_heading wow startAnimation animated fadeInLeft" data-animate="fadeInLeft" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+          <h2>Featured</h2>
+          <h3>Ideas</h3>
+          
+          
+          </div>
+          
+          <div class="text_block2 wow startAnimation animated fadeInRight" data-animate="fadeInRight" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+unknown printer took a galley of type and scrambled it to make a type specimen book. It has 
+survived not only five centuries, Lorem Ipsum.</div>
+        
+        
+        <div class="clearfix"></div>
+        
+        </div>
+     </div>
+   </div> 
+         
+        
+   <div class="container imageblock">
+   	<div class="row">
+        <div class="col-lg-4 col-md-12  col-sm-12 col-xs-12 imgbox wow startAnimation animated fadeInLeft" data-animate="fadeInLeft" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        <img src="images/img1.png" class="imgcon">
+        <div class="textblock">
+        <h2>Lorem Ipsum </h2>
+        <p><span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        
+        </div>
+        
+        <div class="img_footerblock">
+        <img src="images/icon1.png" class="icon1">
+        
+        <a href="javascript:void(0)">Fund</a>
+        
+        <div class="clearfix"></div>
+        
+        </div>
+        
+        
+        </div>
+        <div class="col-lg-4 col-md-12  col-sm-12 col-xs-12 imgbox wow startAnimation animated fadeInLeft" data-animate="fadeInLeft" data-wow-delay="140ms"  data-wow-duration="2s" style="-webkit-animation-delay: 200ms140ms -moz-animation-delay: 140ms; animation-delay: 140ms;">
+        <img src="images/img2.png" class="imgcon">
+        <div class="textblock">
+        <h2>Lorem Ipsum </h2>
+        <p><span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        
+        </div>
+        
+        <div class="img_footerblock">
+        <img src="images/icon1.png" class="icon1">
+        
+        <a href="javascript:void(0)">Fund</a>
+        
+        <div class="clearfix"></div>
+        
+        </div>
+        
+        
+        </div>
+        <div class="col-lg-4 col-md-12  col-sm-12 col-xs-12 imgbox wow startAnimation animated fadeInLeft" data-animate="fadeInLeft" data-wow-delay="180ms"  data-wow-duration="2s" style="-webkit-animation-delay: 180ms; -moz-animation-delay: 180ms; animation-delay: 180ms;">
+        <img src="images/img3.png" class="imgcon">
+        <div class="textblock">
+        <h2>Lorem Ipsum </h2>
+        <p><span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        
+        </div>
+        
+        <div class="img_footerblock">
+        <img src="images/icon1.png" class="icon1">
+        
+        <a href="javascript:void(0)">Fund</a>
+        
+        <div class="clearfix"></div>
+        
+        </div>
+        
+        
+        </div>
+    
+   </div>     
+        
+        <a href="javascript:void(0)" class="viewmore"> 
+        <span>View More</span>
+        <img src="images/arrow3.png" alt="#">
+        </a>
+        
+        </div>
+        
+    
+    <div class="container-fluid bodyblock3" >
+    
+    <div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+        
+    
+    <div class="container ">
+   	<div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+        
+        <div class="bloglogo2_mobile">
+        <img src="images/logo.png" alt="#">
+        </div>
+        
+        <div class="blog1  wow startAnimation animated zoomIn" data-animate="zoomIn" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        <img src="images/img4.png" alt="#">
+        <h2>Brains</h2>
+        <p> Creatives will meet Brains. <br>
+
+Brains specialize in 
+projects needed to create a business</p>
+        
+        </div>
+        
+        
+        <div class="blog2 wow startAnimation animated zoomIn" data-animate="zoomIn" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        <img src="images/img5.png" alt="#">
+        <h2>Creative</h2>
+        <p>  People bring great startup ideas 
+everyday to Voortal.com. 
+We call them Creatives</p>
+        
+        </div>
+        
+        <div class="bloglogo2 wow startAnimation animated zoomIn" data-animate="zoomIn" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        <img src="images/logo.png" alt="#">
+        </div>
+        
+        
+        <div class="blog3 wow startAnimation animated zoomIn" data-animate="zoomIn" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        <img src="images/img6.png" alt="#">
+        <h2>Agents</h2>
+        <p>  Agents will visit Voortal.
+com to buy or fund the business 
+Creatives and Brains are building.</p>
+        
+        </div>
+        
+        
+        <div class="clearfix"></div>
+        
+        <div class="blog4 wow startAnimation animated zoomIn" data-animate="zoomIn" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        
+        <img src="images/img4.png" alt="#">
+           <img src="images/img5.png" alt="#">
+              <img src="images/img6.png" alt="#">
+        
+        <p> Creatives, Brains and <br>
+
+Agents are crowding a business!</p>
+        
+        </div>
+        
+       
+        </div>
+     
+    
+   </div>     
+        
+       
+        
+        </div>
+    
+    </div>
+        </div>
+            </div>
+    
+    
+    <div class="container-fluid bodyblock4">
+    
+      	<div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+    
+    <div class="container">
+   	<div class="row">
+        <div class="col-lg-12 col-md-12  col-sm-12 col-xs-12 bodyblock4_wrapper">
+        
+        <div class="resorcediv_mobile wow startAnimation animated fadeInDown" data-animate="fadeInDown" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        
+        <h4>resources</h4>
+         <img src="images/re_img1.png" alt="#">
+         
+          
+        
+        </div>
+        
+         <div class="blog_bottom1 wow startAnimation animated fadeInLeft" data-animate="fadeInLeft" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+         <img src="images/re_img2.png" alt="#" class="bimg1">
+         
+          <img src="images/re_img2_mobile.png" alt="#" class="bimg_mobile">
+         
+         <h2>Marketing</h2>
+         <h3>9</h3>
+         
+        
+         <p> <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting </p>
+         
+         
+         </div>
+        
+        
+        <div class="blog_bottom2">
+        
+        <div class="resorcediv wow startAnimation animated fadeInDown" data-animate="fadeInDown" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+        
+        <h4>resources</h4>
+         <img src="images/re_img1.png" alt="#">
+         
+          
+        
+        </div>
+        
+        <div class="wow startAnimation animated fadeInUp" data-animate="fadeInUp" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+         <img src="images/re_img3.png" alt="#" class="bimg1">
+         
+           <img src="images/re_img3_mobile.png" alt="#" class="bimg_mobile">
+         
+         <h2>Team Building</h2>
+         <h3>10</h3>
+         
+        
+         <p> <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting </p>
+         
+         </div>
+         </div>
+         
+         
+         <div class="blog_bottom3 wow startAnimation animated fadeInRight" data-animate="fadeInRight" data-wow-delay="100ms"  data-wow-duration="2s" style="-webkit-animation-delay: 100ms; -moz-animation-delay: 100ms; animation-delay: 100ms;">
+         <img src="images/re_img4.png" alt="#" class="bimg1">
+         
+           <img src="images/re_img4_mobile.png" alt="#" class="bimg_mobile">
+         
+         <h2>Finance </h2>
+         <h3>33</h3>
+         
+        
+         <p> <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting </p>
+         
+         
+         </div>
+      
+        
+        <div class="clearfix"></div>
+        
+        
+        
+       
+        </div>
+     
+    
+   </div>     
+        
+       
+        
+        </div>
+    
+    </div>
+        </div>
+    
+        </div>
+    
+<?php include('footer.php') ?>
+

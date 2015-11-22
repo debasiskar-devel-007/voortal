@@ -1,0 +1,35 @@
+@media screen and (max-width:991px) {
+.Dashboard_topblock div{ background:#e2e2e2; padding:0; width:49%; margin:0 1% 8px 0; height:126px;}
+
+.Dashboard_topblock div span{ width:180px;  height:126px; background:#1b779c; display:table-cell; text-align:center; vertical-align:middle;}
+
+.Dashboard_block3 .blokdiv{ padding:0; margin:0; margin-bottom:30px;  width:98%}
+
+.Dashboard_block4{ width:100%; margin:0px auto;}
+
+.Dashboard_block4 .block4con{ width:98%; margin:0; margin-bottom:30px; background:#e2e2e2; border-top:solid 6px #1b779c; padding:12px; }
+}
+
+@media screen and (max-width:767px) {
+.skin-blue .main-header .logo{ background:#fff; padding:0; text-align:center;}
+.skin-blue .main-header .logo:hover{background:#fff; }
+
+.main-footer{ text-align:center; background:#e6eaef;}
+
+.content-wrapper{ padding-left:0;}
+}
+
+
+@media screen and (max-width:480px) {
+.Dashboard_topblock div{ background:#e2e2e2; padding:0; width:100%; margin:0 auto; margin-bottom:8px; height:126px;}
+
+.Dashboard_block3 .blockpart1 label img{display:block; float:none; border:solid 2px #1b779c; border-radius:100px; width:20%; margin:0 auto;}
+
+.Dashboard_block3 .blockpart1 label span{ display:inline-block; padding:2%; width:100%; text-align:center;}
+
+.Dashboard_block3 .formbox{ margin-bottom:25px; width:100%; padding:0; overflow:hidden; background:none;}
+
+.Dashboard_block3 .formbox input[type="text"]{ width:100%; background:#fff; border:solid 1px #ccc; padding:5px; height:40px; margin:0 0 10px 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+
+.Dashboard_block3 .formbox .addbtn{ background:#1b779c; width:180px; display:block; float:none; margin:0 auto; overflow:hidden; color:#fff; border:none; cursor:pointer;  font-size:15px; color:#ffffff; height:40px; border:none;}
+}

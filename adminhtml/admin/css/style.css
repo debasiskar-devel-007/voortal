@@ -1,0 +1,180 @@
+@font-face {
+ font-family:'Generica-Regular';
+ src: url('../fonts/Generica_gdi.eot');
+ src: url('../fonts/Generica_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/Generica_gdi.woff') format('woff'), url('../fonts/Generica_gdi.ttf') format('truetype'), url('../fonts/Generica_gdi.svg#Generica-Regular') format('svg');
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+001D-2265;
+}
+ @font-face {
+ font-family:'HarabaraMaisBold-HarabaraMaisBold';
+ src: url('../fonts/HarabaraMaisBold-HarabaraMaisBold_gdi.eot');
+ src: url('../fonts/HarabaraMaisBold-HarabaraMaisBold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/HarabaraMaisBold-HarabaraMaisBold_gdi.woff') format('woff'), url('../fonts/HarabaraMaisBold-HarabaraMaisBold_gdi.ttf') format('truetype'), url('../fonts/HarabaraMaisBold-HarabaraMaisBold_gdi.svg#HarabaraMaisBold-HarabaraMaisBold') format('svg');
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+0020-221A;
+}
+ @font-face {
+ font-family:'OpenSans-Bold';
+ src: url('../fonts/OpenSans-Bold_gdi.eot');
+ src: url('../fonts/OpenSans-Bold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold_gdi.woff') format('woff'), url('../fonts/OpenSans-Bold_gdi.ttf') format('truetype'), url('../fonts/OpenSans-Bold_gdi.svg#OpenSans-Bold') format('svg');
+ font-weight: 700;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+0020-25CA;
+}
+ @font-face {
+ font-family:'OpenSans-BoldItalic';
+ src: url('../fonts/OpenSans-BoldItalic_gdi.eot');
+ src: url('../fonts/OpenSans-BoldItalic_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-BoldItalic_gdi.woff') format('woff'), url('../fonts/OpenSans-BoldItalic_gdi.ttf') format('truetype'), url('../fonts/OpenSans-BoldItalic_gdi.svg#OpenSans-BoldItalic') format('svg');
+ font-weight: 700;
+ font-style: italic;
+ font-stretch: normal;
+ unicode-range: U+0020-25CA;
+}
+ @font-face {
+ font-family:'OpenSans-Extrabold';
+ src: url('../fonts/OpenSans-Extrabold_gdi.eot');
+ src: url('../fonts/OpenSans-Extrabold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Extrabold_gdi.woff') format('woff'), url('../fonts/OpenSans-Extrabold_gdi.ttf') format('truetype'), url('../fonts/OpenSans-Extrabold_gdi.svg#OpenSans-Extrabold') format('svg');
+ font-weight: 800;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+0020-25CA;
+}
+ @font-face {
+ font-family:'OpenSans-Light';
+ src: url('../fonts/OpenSans-Light_gdi.eot');
+ src: url('../fonts/OpenSans-Light_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light_gdi.woff') format('woff'), url('../fonts/OpenSans-Light_gdi.ttf') format('truetype'), url('../fonts/OpenSans-Light_gdi.svg#OpenSans-Light') format('svg');
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+0020-25CA;
+}
+ @font-face {
+ font-family:'OpenSans-Regular';
+ src: url('../fonts/OpenSans_gdi.eot');
+ src: url('../fonts/OpenSans_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans_gdi.woff') format('woff'), url('../fonts/OpenSans_gdi.ttf') format('truetype'), url('../fonts/OpenSans_gdi.svg#OpenSans-Regular') format('svg');
+ font-weight: 400;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+0020-25CA;
+}
+ @font-face {
+ font-family:'OpenSans-Semibold';
+ src: url('../fonts/OpenSans-Semibold_gdi.eot');
+ src: url('../fonts/OpenSans-Semibold_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold_gdi.woff') format('woff'), url('../fonts/OpenSans-Semibold_gdi.ttf') format('truetype'), url('../fonts/OpenSans-Semibold_gdi.svg#OpenSans-Semibold') format('svg');
+ font-weight: 600;
+ font-style: normal;
+ font-stretch: normal;
+ unicode-range: U+0020-25CA;
+}
+
+body{ background:#e6eaef;}
+h1, h2, h3, h4, h5, h6, p{ margin:0; padding:0;}
+.logo-mini { text-align:center;}
+.logo-mini img{ width:50%!important; display:block!important; margin:12px auto; }
+
+
+.skin-blue .main-header .navbar{ background:#1b779c;}
+
+.skin-blue .main-header .logo{ background:#222d32; padding:0; text-align:right;}
+.skin-blue .main-header .logo:hover{background:#222d32; }
+
+
+.main-footer{ text-align:right; background:#e6eaef;}
+
+
+
+
+
+.pageheading{ padding:26px 0 13px 0;  font-family:'OpenSans-Regular'; color:#1b779c; font-size:22px;}
+
+.content-wrapper{ padding-left:1.5%;}
+
+.content-wrapper span { font-family:'OpenSans-Semibold'; text-transform:uppercase;}
+
+
+.Dashboard_topblock{ margin:10px 0;}
+
+.Dashboard_topblock div{ background:#e2e2e2; padding:0; width:23.8%; margin:0 1% 0 0; height:126px;}
+
+
+.Dashboard_topblock div span{ width:40%;  height:126px; background:#1b779c; display:table-cell; text-align:center; vertical-align:middle;}
+
+.Dashboard_topblock div label{width:60%;  height:126px; display:table-cell; text-align:left; vertical-align:middle; padding:0 5%; font-size:12px; color:#404040; font-family:'OpenSans-Regular'; }
+
+.Dashboard_topblock div label strong{ font-size:26px; color:#1b779c;  font-family:'OpenSans-Semibold';}
+
+.Dashboard_block2{ margin:30px 0; background:#e2e2e2; border-top:solid 6px #1b779c; padding:12px; width:98%}
+
+.block2heading{ padding:0;  font-family:'OpenSans-Regular'; color:#333; font-size:20px; margin:0;}
+
+.block2heading span { font-family:'OpenSans-Semibold'; text-transform:uppercase; color:#000;}
+
+
+
+
+.Dashboard_block2  ul{ display:block; text-align:center; margin:0; padding:0; }
+
+.Dashboard_block2  ul li{ list-style:none; display:inline-block; width:96px; margin:15px; text-align:center; font-size:13px; color:#404040; font-family:'OpenSans-Regular';}
+
+.Dashboard_block2  ul li strong{font-family:'OpenSans-Semibold';  color:#1b779c; }
+
+.Dashboard_block2  ul li img{ display:block; margin:5px auto; border:solid 2px #f3f0f0; border-radius:100px; width:80%;}
+
+.Dashboard_block3{ width:100%;}
+
+.Dashboard_block3 .blokdiv{ padding:0; margin-right:1%; width:32%}
+
+.Dashboard_block3 .blockpart1{background:#e2e2e2; border-top:solid 6px #1b779c; padding:12px;}
+
+.Dashboard_block3 .blockpart2{background:#e2e2e2; border-top:solid 6px #1b779c; padding:12px;}
+.Dashboard_block3 .blockpart3{background:#e2e2e2; border-top:solid 6px #1b779c; padding:12px;}
+
+
+.Dashboard_block3 .blockpart1 label{ width:100%; clear:both; margin:18px auto; font-family:'OpenSans-Regular'; font-size:12px; color:#404040; font-weight:normal;}
+
+.Dashboard_block3 .blockpart1 label img{display:block; float:left; border:solid 2px #f3f0f0; border-radius:100px; width:20%;}
+
+.Dashboard_block3 .blockpart1 label span{ display:inline-block; padding:2%; width:80%}
+
+
+.Dashboard_block3 .blockpart2 ul{ display:block; text-align:center; margin:10px auto; padding:0; }
+
+.Dashboard_block3 .blockpart2 ul li{ list-style:none; display:inline-block; width:90px; margin:5px; text-align:center; font-size:12px; color:#404040; font-family:'OpenSans-Regular';}
+
+.Dashboard_block3 .blockpart2 ul li strong{font-family:'OpenSans-Semibold';  color:#1b779c; }
+
+.Dashboard_block3 .blockpart2  ul li img{ display:block; margin:5px auto; border:solid 2px #f3f0f0; border-radius:100px; width:80%;}
+
+
+.Dashboard_block3 .formbox{ margin-bottom:10px; width:100%; background:#1b779c; padding:0; overflow:hidden;}
+
+.Dashboard_block3 .formbox input[type="text"]{ width:75%; background:#fff; border:solid 1px #ccc; padding:5px; height:40px; margin:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; float:left;}
+
+.Dashboard_block3 .formbox .addbtn{ background:#1b779c; width:24%; color:#fff; border:none; cursor:pointer; margin:0; font-size:15px; color:#ffffff; height:40px; border:none; float:left; text-align:center;}
+
+
+
+.Dashboard_block3 .block2heading{ padding:0;  font-family:'OpenSans-Regular'; color:#333; font-size:20px; margin:0; width:70%; float:left;}
+
+.Dashboard_block3 .block2heading span { font-family:'OpenSans-Semibold'; text-transform:uppercase;  color:#000;}
+
+.viewall{ display: inline-block; float:right; color:#1b779c;}
+.viewall:hover{color:#1b779c;}
+
+.Dashboard_block4{ width:100%; margin:30px auto;} 
+
+.Dashboard_block4 .block4con{ width:48.5%; margin-right:1%; background:#e2e2e2; border-top:solid 6px #1b779c; padding:12px; }
+
+.Dashboard_block4 .block4con label{ background:#1b779c; display:block; width:100%; padding:10px; margin:10px 0; font-family:'OpenSans-Regular'; font-size:14px; color:#ffffff; font-weight:normal;}
+
+.Dashboard_block4 .block4con label img{ display:inline; margin-right:10px;}
+
+.Dashboard_block4 .block4con .addbtn{background:#1b779c; display:block; width:170px; height:50px; float:right; font-family:'OpenSans-Regular'; font-size:14px; color:#ffffff; text-align:center; line-height:50px;}
+
+
+
+
