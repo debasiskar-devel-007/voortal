@@ -1,45 +1,82 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
+
     <base href="/">
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>:: VOORTAL ::</title>
+
+    <script type="text/javascript">
+        FileAPI = {
+            debug: true,
+            forceLoad: true, html5: false, //to debug flash in HTML5 browsers
+            wrapInsideDiv: true, //experimental for fixing css issues
+            //only one of jsPath or jsUrl.
+            //jsPath: '/js/FileAPI.min.js/folder/',
+            jsUrl: 'ng-js/FileAPI.min.js',
+
+            //only one of staticPath or flashUrl.
+            //staticPath: '/flash/FileAPI.flash.swf/folder/'
+            flashUrl: 'ng-js/FileAPI.flash.swf'
+        };
+    </script>
+
+    <link href="images/favicon.png" rel="icon">
+
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+
+    <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+    <link href="css/admin_style.css" type="text/css" rel="stylesheet" />
+    <link href="css/admin_media.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/media.css" type="text/css" rel="stylesheet" />
+    <link href="css/animate.css" type="text/css" rel="stylesheet" />
+    <link href="css/textAngular.css" type="text/css" rel="stylesheet" />
+    <link href="css/ng-tags-input.css" type="text/css" rel="stylesheet" />
 
 
-    <!-- CSS (load bootstrap) -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <style>
-        .navbar { border-radius:0; }
-    </style>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.min.js"></script>
 
-    <!-- JS (load angular, ui-router, and our custom js file) -->
-    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
-    <script src="app.js"></script>
+    <script src="ng-js/angular.js"></script>
+    <script src="ng-js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    <script src="ng-js/angular-animate.min.js"></script>
+    <script src="ng-js/angular-ui-router.js"></script>
+    <script src="ng-js/ng-file-upload.js"></script>
+    <script src="ng-js/textAngular-rangy.min.js"></script>
+    <script src="ng-js/textAngular-sanitize.min.js"></script>
+    <script src="ng-js/textAngular.min.js"></script>
+    <script src="ng-js/textAngularSetup.js"></script>
+    <script src="ng-js/ng-tags-input.js"></script>
+    <script src="ng-js/app.js"></script>
+    <script src="ng-js/angular-validator.js"></script>
+    <script src="ng-js/angular-cookies.js"></script>
+
+
+
+
 </head>
+<body class="skin-blue sidebar-mini" ng-app="voortal" ng-init="baseUrl = 'http://voortal.hagencompaniesonline.com';adminUrl = 'http://adminvoortal.hagencompaniesonline.com'" >
 
-<!-- apply our angular app to our site -->
-<body ng-app="voortal">
-
-<!-- NAVIGATION -->
-<nav class="navbar navbar-inverse" role="navigation">
-    <div class="navbar-header">
-        <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
-    </div>
-    <ul class="nav navbar-nav">
-        <li><a ui-sref="home">Home</a></li>
-        <li><a ui-sref="about">About</a></li>
-    </ul>
-</nav>
-
-<!-- MAIN CONTENT -->
-<div class="container">
-
-    <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
-    <div ui-view></div>
-
+<div ui-view="content"></div>
+<div ui-view="footer"></div>
+<div class="wrapper">
+    <div ui-view="admin_header"></div>
+    <div ui-view="admin_left"></div>
+    <div ui-view="admin_content"></div>
+    <div ui-view="admin_footer"></div>
 </div>
+<div ui-view></div>
 
 </body>
 </html>
